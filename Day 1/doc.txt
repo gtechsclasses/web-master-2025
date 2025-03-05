@@ -1,0 +1,48 @@
+File (.html)
+
+file extension - .jpg .jpeg .webpg .png, .gif .txt .pdf .mp4 .mp3
+
+
+
+html - hyper text markup language
+html version - html5
+html file extension - .html      .htm
+
+tags - 
+self closing tag - <img /> <a />
+closing tag - <h1></h1> <p></p>
+
+closing tag format
+<tagname> - opening tag
+
+</tagname> - closing tag
+
+self closing tag format
+<tagname />
+
+<tag href="" class="" id="" width=""></tag> 
+<tag />
+
+<a href=""></a> ✅
+<img src="" alt="" /> ✅
+<h1 src="" href=""></h1> ❌
+
+table
+list
+iframe
+
+
+html 10 tags
+
+heading - 6
+text formatting tags - b, i, em ,strong, sub, sup, big, small, del
+p
+a
+img
+
+attribute - 
+        common attribute - style , title, 
+        img - src, alt, height, width
+        a - href   
+
+        
