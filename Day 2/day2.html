@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- anchor tag -->
+    <!-- <a href="https://gtechs.in/" target="_blank">Click to visit G-techs</a> <br> <br>
+
+
+    <a href="https://www.google.com/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png"
+            alt="" width="200px">
+    </a>
+
+
+    <a href="https://www.facebook.com/" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1-svjRdLkLz2mk5FtHBuugVpB38sRJ9XC7A&s" alt="" width="200px">
+    </a>
+
+    <a href="mailto:anishkr2842003@gmail.com">Click to send email</a>
+
+    <a href="tel:1234567890">Click to dial</a>
+
+
+    <button onclick="document.location='https://www.facebook.com/'">Facebook</button> -->
+
+    <!-- tables in html -->
+    <!-- <table>
+        <caption>Student Data</caption>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Aman</td>
+            <td>8th</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kunal</td>
+            <td>10th</td>
+        </tr>
+    </table>
+    <br> <br>
+    <table>
+        <caption>Days</caption>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="3">Tue</th>
+            <th>Wed</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table> -->
+
+
+    <!-- lists 
+        ul - unorderd list
+        ol - ordered list
+        dl - description list 
+    -->
+
+    <!-- unorderd list -->
+    <!-- <ul style="list-style-type: square;">
+        <li>Mon</li>
+        <li>Tue</li>
+        <li>Wed</li>
+        <li>Thu</li>
+        <li>Fri</li>
+        <li>Sat</li>
+    </ul> -->
+
+    <!-- ordered list -->
+    <!-- <ol type="1" start="5">
+        <li>Pani</li>
+        <li>Namak</li>
+        <li>maggie</li>
+        <li>Onion</li>
+        <li>Gas</li>
+    </ol> -->
+
+    <!-- description list -->
+    <!-- <dl>
+        <dt>Coffee</dt>
+        <dd>Your coffee is better than zomato coffee</dd>
+        <dt>Elements</dt>
+        <dd>There are two types of Elements in HTML</dd>
+    </dl> -->
+
+
+
+    <!--
+    Elements - Inline Element, Block level Element
+    inline elements - a , 
+    -->
+
+    <!-- <a href="">I am inline element</a>
+    <i>I am i tag</i>
+    <b>i am b tag</b>
+
+    <p>i am block level element</p>
+    <div></div>
+    <header></header>
+    <article></article>
+    <b>i am b tag</b> -->
+
+    <!-- <iframe src="https://gtechs.in/" frameborder="0" height="500px" width="1200px"></iframe>
+
+
+    <h1>HTML VIDEO 1</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/InHstWTxV9I?si=REQEnA1xV-cPawLR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Google map</h1>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.1249394898227!2d77.23849107511849!3d28.65597747565187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfddde0992e45%3A0x86e63ccba8d65afb!2sLal%20quila!5e0!3m2!1sen!2sin!4v1741314097457!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <br> <br> <br> <br> -->
+
+
+    <!-- sinle space &nbsp; -->
+    <!-- four space &ensp; -->
+    <!-- <p>Hello G-techs family</p>
+
+    <pre>
+        Hello
+        this is anish        here.
+        Hello
+    </pre>
+
+    <code> 
+        var x = 10; 
+        var y = 20;
+
+        var z = x + y;
+        console.log(z)
+
+    </code> -->
+
+
+    <!-- 
+    form
+
+    input text, radio, date, time
+    label
+
+     
+    -->
+
+
+    <form action="">
+        <fieldset>
+            <label for="name">Enter Your Name : </label>
+            <input type="text" placeholder="Enter your name" required> <br> <br>
+            <label for="Class">Enter Your Class : </label>
+            <input type="number" required> <br> <br>
+            <label for="section">Chooese your section</label>
+            <input type="radio" name="section">A
+            <input type="radio" name="section">B
+            <input type="radio" name="section">C <br> <br>
+            <label for="date">Date of birth</label>
+            <input type="date" required> <br> <br>
+            <label for="time">Birth Time</label>
+            <input type="time" required> <br> <br>
+            <label for="email">Enter your Email</label>
+            <input type="email" required>
+
+            <button type="submit">Save</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
