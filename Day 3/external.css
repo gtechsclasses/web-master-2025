@@ -1,0 +1,18 @@
+h3{
+    font-size: 100px;
+    color: black;
+    background-color: aquamarine;
+    /* border-width: 10px;
+    border-style: double;
+    border-color: black; */
+    border: 10px double black; /* shorthand */
+}
+
+/* This is css comment
+   This is multiline comment also
+
+   color - rgb, rgba, hex, hsl, hsla, color name
+
+
+
+*/
